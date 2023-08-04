@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./App.scss";
-import background from "../src/components/background.mp4";
-import buttonclick from "../src/components/buttonclick.wav";
+import background from "../src/assets/background.mp4";
+import buttonclick from "../src/assets/buttonclick.wav";
 
-import buttonbreak from "../src/components/buttonclickrelease.wav";
+import buttonbreak from "../src/assets/buttonclickrelease.wav";
 import { GiSpeaker, GiSpeakerOff } from "react-icons/gi";
-import paradise from "../src/components/paradise.mp3";
-import buttonrollover from "../src/components/buttonrollover.wav";
+import paradise from "../src/assets/paradise.mp3";
+import buttonrollover from "../src/assets/buttonrollover.wav";
 import { useRef } from "react";
 
 function App() {
